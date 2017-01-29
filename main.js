@@ -41,4 +41,17 @@
 //   }
 // })
 
-// 5. 
+// 5. Show me how to find which items are made of eight or more materials. Please console.log the ones you find.
+// var eightPlus = items.filter(function(list){
+//   return list.materials.length > 8;
+// });
+//
+// console.log(eightPlus);
+
+// 6. Show me how to calculate how many items were made by their sellers.
+
+// items.forEach(function(item){
+//   if (item.who_made == 'i_did'){
+//     console.log(item + " were made by their sellers");
+//   }
+// });
